@@ -1,0 +1,54 @@
+baseURL: https://smoliicek.xyz/
+languageCode: cz-cs
+title: Vít Smolík
+copyright: "© [Smolík Vít](mailto:me@smoliicek.xyz)"
+theme: ["PaperMod"]
+
+mainsections: ["posts"]
+
+menu:
+      main:
+        - name: Home
+          url: /
+          weight: 5
+        - name: Tags
+          url: tags/
+          weight: 10
+        - name: Social Links
+          url: social/
+          weight: 20
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  description: "Vít Smolík - Blog"
+  author: Vít Smolík
+  # author: ["Me", "You"] # multiple authors
+
+  defaultTheme: auto
+  ShowShareButtons: false
+  ShowReadingTime: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  ShowToc: true
+
+  homeInfoParams:
+    Title: "Vít Smolík"
+    Content: >
+      👋 Ahoj, jsem Vítek!
+
+      - Jsem student a vývojář z 🇨🇿.
+
+      - Rád programuji v C-like programovacích jazycích, ale ovládám i Rust a JavaScript.
+
+      - Mám rád matematiku, technologie a video produkci.
+      
+      - Jsem 🐧 uživatel. 
+
+  socialIcons:
+    - name: github
+      title: Můj Github
+      url: "https://github.com/smajlll"
