@@ -1,5 +1,4 @@
 /public/
-/resources/_gen/
-/static/
+/resources/
 
 .hugo*
